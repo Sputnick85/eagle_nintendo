@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SNES-MULTIAV">
+<wire x1="0" y1="0" x2="22.4" y2="0" width="0.127" layer="21"/>
+<wire x1="22.4" y1="0" x2="22.4" y2="2.9" width="0.127" layer="21"/>
+<wire x1="22.4" y1="2.9" x2="32.2" y2="2.9" width="0.127" layer="21"/>
+<wire x1="32.2" y1="2.9" x2="32.2" y2="11.9" width="0.127" layer="21"/>
+<wire x1="32.2" y1="11.9" x2="22.4" y2="11.9" width="0.127" layer="21"/>
+<wire x1="22.4" y1="11.9" x2="22.4" y2="20" width="0.127" layer="21"/>
+<wire x1="22.4" y1="20" x2="0" y2="20" width="0.127" layer="21"/>
+<wire x1="0" y1="20" x2="0" y2="11.9" width="0.127" layer="21"/>
+<wire x1="0" y1="11.9" x2="-8.4" y2="11.9" width="0.127" layer="21"/>
+<wire x1="-8.4" y1="11.9" x2="-8.4" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-8.4" y1="2.9" x2="0" y2="2.9" width="0.127" layer="21"/>
+<wire x1="0" y1="2.9" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="R" x="4.9" y="0" drill="1"/>
+<pad name="12V" x="7.4" y="0" drill="1"/>
+<pad name="GND1" x="9.9" y="0" drill="1"/>
+<pad name="Y" x="12.4" y="0" drill="1"/>
+<pad name="CVBS" x="14.9" y="0" drill="1"/>
+<pad name="MONO" x="17.4" y="0" drill="1"/>
+<pad name="STEREO" x="17.4" y="2.5" drill="1"/>
+<pad name="5V" x="14.9" y="2.5" drill="1"/>
+<pad name="C" x="12.4" y="2.5" drill="1"/>
+<pad name="GND2" x="9.9" y="2.5" drill="1"/>
+<pad name="B" x="7.4" y="2.5" drill="1"/>
+<pad name="G" x="4.9" y="2.5" drill="1"/>
+<pad name="GND" x="-4.3" y="7.4" drill="3.6"/>
+<hole x="28.1" y="7.4" drill="3.6"/>
+<hole x="5" y="9.8" drill="3.2"/>
+<hole x="17.5" y="9.8" drill="3.2"/>
+<text x="2.54" y="0" size="1.27" layer="21">1</text>
+<text x="2.54" y="2.54" size="1.27" layer="21">2</text>
+<text x="19.05" y="0" size="1.27" layer="21">11</text>
+<text x="19.05" y="2.54" size="1.27" layer="21">12</text>
+</package>
+<package name="GC-MULTIAV">
+<wire x1="0" y1="0" x2="23.3" y2="0" width="0.127" layer="21"/>
+<wire x1="23.3" y1="0" x2="23.3" y2="17" width="0.127" layer="21"/>
+<wire x1="23.3" y1="17" x2="28.4" y2="17" width="0.127" layer="21"/>
+<wire x1="28.4" y1="17" x2="28.4" y2="18" width="0.127" layer="21"/>
+<wire x1="28.4" y1="18" x2="28.4" y2="22.5" width="0.127" layer="21"/>
+<wire x1="28.4" y1="22.5" x2="28.4" y2="23.5" width="0.127" layer="21"/>
+<wire x1="28.4" y1="23.5" x2="23.3" y2="23.5" width="0.127" layer="21"/>
+<wire x1="23.3" y1="23.5" x2="23.3" y2="26" width="0.127" layer="21"/>
+<wire x1="23.3" y1="26" x2="0" y2="26" width="0.127" layer="21"/>
+<wire x1="0" y1="26" x2="0" y2="23.5" width="0.127" layer="21"/>
+<wire x1="0" y1="23.5" x2="-5.1" y2="23.5" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="23.5" x2="-5.1" y2="22.5" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="22.5" x2="-5.1" y2="18" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="18" x2="-5.1" y2="17" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="17" x2="0" y2="17" width="0.127" layer="21"/>
+<wire x1="0" y1="17" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="22.5" x2="-5.1" y2="18" width="0.127" layer="21" curve="-180"/>
+<wire x1="28.4" y1="22.5" x2="28.4" y2="18" width="0.127" layer="21" curve="180"/>
+<pad name="G" x="5.4" y="4.9" drill="1"/>
+<pad name="R" x="5.4" y="2.4" drill="1"/>
+<pad name="B" x="7.9" y="4.9" drill="1"/>
+<pad name="GND2" x="10.4" y="4.9" drill="1"/>
+<pad name="C" x="12.9" y="4.9" drill="1"/>
+<pad name="5V" x="15.4" y="4.9" drill="1"/>
+<pad name="STEREO" x="17.9" y="4.9" drill="1"/>
+<pad name="MONO" x="17.9" y="2.4" drill="1"/>
+<pad name="CVBS" x="15.4" y="2.4" drill="1"/>
+<pad name="Y" x="12.9" y="2.4" drill="0.9"/>
+<pad name="GND1" x="10.4" y="2.4" drill="1"/>
+<pad name="12V" x="7.9" y="2.4" drill="1"/>
+<smd name="GND3" x="1.5" y="3" dx="3.6" dy="1.3" layer="16" roundness="100" rot="R90"/>
+<smd name="GND6" x="21.8" y="3" dx="3.6" dy="1.3" layer="16" roundness="100" rot="R90"/>
+<smd name="GND4" x="6.7" y="0" dx="3" dy="1.3" layer="16" roundness="100"/>
+<smd name="GND5" x="16.6" y="0" dx="3" dy="1.3" layer="16" roundness="100"/>
+<wire x1="5.5" y1="0.3" x2="7.9" y2="0.3" width="0.127" layer="46"/>
+<wire x1="7.9" y1="0.3" x2="7.9" y2="-0.3" width="0.127" layer="46"/>
+<wire x1="7.9" y1="-0.3" x2="5.5" y2="-0.3" width="0.127" layer="46"/>
+<wire x1="5.5" y1="-0.3" x2="5.5" y2="0.3" width="0.127" layer="46"/>
+<wire x1="1.2" y1="4.5" x2="1.8" y2="4.5" width="0.127" layer="46"/>
+<wire x1="1.8" y1="4.5" x2="1.8" y2="1.5" width="0.127" layer="46"/>
+<wire x1="1.8" y1="1.5" x2="1.2" y2="1.5" width="0.127" layer="46"/>
+<wire x1="1.2" y1="1.5" x2="1.2" y2="4.5" width="0.127" layer="46"/>
+<wire x1="15.4" y1="0.3" x2="17.8" y2="0.3" width="0.127" layer="46"/>
+<wire x1="17.8" y1="0.3" x2="17.8" y2="-0.3" width="0.127" layer="46"/>
+<wire x1="17.8" y1="-0.3" x2="15.4" y2="-0.3" width="0.127" layer="46"/>
+<wire x1="15.4" y1="-0.3" x2="15.4" y2="0.3" width="0.127" layer="46"/>
+<wire x1="22.1" y1="4.5" x2="22.1" y2="1.5" width="0.127" layer="46"/>
+<wire x1="22.1" y1="1.5" x2="21.5" y2="1.5" width="0.127" layer="46"/>
+<wire x1="21.5" y1="1.5" x2="21.5" y2="4.5" width="0.127" layer="46"/>
+<wire x1="21.5" y1="4.5" x2="22.1" y2="4.5" width="0.127" layer="46"/>
+<text x="3" y="1.5" size="1.27" layer="21">1</text>
+<text x="3" y="4" size="1.27" layer="21">2</text>
+<text x="19" y="4" size="1.27" layer="21">12</text>
+<text x="19" y="1.5" size="1.27" layer="21">11</text>
+<hole x="-4.8" y="20.2" drill="3.6"/>
+<hole x="28.1" y="20.3" drill="3.6"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MULTIAV">
+<wire x1="0" y1="0" x2="0" y2="30.48" width="0.254" layer="94"/>
+<wire x1="0" y1="30.48" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="30.48" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="R" x="-10.16" y="2.54" length="middle" direction="out"/>
+<pin name="G" x="-10.16" y="5.08" length="middle" direction="out"/>
+<pin name="CSYNC/12V" x="-10.16" y="7.62" length="middle" direction="out"/>
+<pin name="B" x="-10.16" y="10.16" length="middle" direction="out"/>
+<pin name="GND" x="-10.16" y="12.7" length="middle" direction="out"/>
+<pin name="Y" x="-10.16" y="15.24" length="middle" direction="out"/>
+<pin name="C" x="-10.16" y="17.78" length="middle" direction="out"/>
+<pin name="CVBS" x="-10.16" y="20.32" length="middle" direction="out"/>
+<pin name="VCC" x="-10.16" y="22.86" length="middle" direction="out"/>
+<pin name="MONO" x="-10.16" y="25.4" length="middle" direction="out"/>
+<pin name="STEREO" x="-10.16" y="27.94" length="middle" direction="out"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SNES-MULTIAV">
+<gates>
+<gate name="G$1" symbol="MULTIAV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SNES-MULTIAV">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="CSYNC/12V" pad="12V"/>
+<connect gate="G$1" pin="CVBS" pad="CVBS"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="GND" pad="GND GND1 GND2"/>
+<connect gate="G$1" pin="MONO" pad="MONO"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="STEREO" pad="STEREO"/>
+<connect gate="G$1" pin="VCC" pad="5V"/>
+<connect gate="G$1" pin="Y" pad="Y"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GC-MULTIAV">
+<gates>
+<gate name="G$1" symbol="MULTIAV" x="5.08" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="GC-MULTIAV">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="CSYNC/12V" pad="12V"/>
+<connect gate="G$1" pin="CVBS" pad="CVBS"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6"/>
+<connect gate="G$1" pin="MONO" pad="MONO"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="STEREO" pad="STEREO"/>
+<connect gate="G$1" pin="VCC" pad="5V"/>
+<connect gate="G$1" pin="Y" pad="Y"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
