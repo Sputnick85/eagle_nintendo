@@ -1,7 +1,7 @@
 This is an Eagle Library with the SNES , N64 and GameCube MultiAV Socket.
 
 NES FRA RGB OUT will be added soon.
-Wiki with extended library escription will be added soon.
+Wiki with extended library description will be added soon.
 
 Pin3 is different on SNES/GC and N64. There are differences between PAL and NTSC.
 
